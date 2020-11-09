@@ -1,7 +1,4 @@
 #include <turnkey/base>
 
-#nBefore installing the UniFi Controller, it will first install OpenJDK 8.
 openjdk-8-jre-headless
-
-#In order to fix an issue which can cause a slow start for the UniFi controller, haveged is installed.
 haveged

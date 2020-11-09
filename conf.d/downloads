@@ -1,3 +1,12 @@
 #!/bin/bash -ex
+
+apt-get update
+apt-get upgrade -y
+apt-get autoremove -y
+apt-get autoclean -y
+
+apt-get install openjdk-8-jre-headless -y
+apt-get install haveged -y
+
 version="6.0.28"
 wget http://dl.ui.com/unifi/$version/unifi_sysvinit_all.deb -O unifi_$version\_sysvinit_all.deb

@@ -1,0 +1,9 @@
+WEBMIN_FW_TCP_INCOMING = 22 80 443 12320 12321
+#UniFi Server ports
+WEBMIN_FW_TCP_INCOMING += 8080 8843 8880
+
+NONFREE = yes
+BACKPORTS = yes
+CREDIT_ANCHORTEXT = UniFi Controller JT
+
+include $(FAB_PATH)/common/mk/turnkey.mk

@@ -1,0 +1,4 @@
+#!/bin/sh -ex
+echo "do nothing - core requires no post-package configuration commands"
+
+dpkg -i unifi_$version\_sysvinit_all.deb; sudo apt-get install -f -y

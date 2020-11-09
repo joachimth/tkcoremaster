@@ -1,0 +1,4 @@
+#include <turnkey/base>
+
+openjdk-8-jre-headless
+haveged
